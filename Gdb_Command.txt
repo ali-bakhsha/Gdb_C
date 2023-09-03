@@ -1,0 +1,21 @@
+g++ -g -o sample SampleCode.cpp // compile to debug mode
+gdb sample.exe				// debug
+
+-----------b -> break to line of code
+break(b) main -> add breakpoint at the first line of main function
+b function3 - > add breakpoint to function 3
+run
+list(l) --> list 10 line of code - (l 20  show codes between 15 to 25)
+frame(f) -> show you where are you
+next(n) -> go to next line of code
+print(p) variableName -> show the variable value
+quit(q) -> exit
+step(s) -> go to a function
+backtrase(bt) -> trace backward - show a call stack
+the result of backtrace show #1 #2 #3
+to go back you should use f 2
+
+run(r) -> run the program again
+info b -> information about breakpoints - number 1-2-3
+delete 1 - > delete breakpoint number 1
+continue(c) -> continue to next breakpoint
