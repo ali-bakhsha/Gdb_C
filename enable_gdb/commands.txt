@@ -1,0 +1,10 @@
+g++ -g -std=c++11 Code.cpp -o output
+gdb output
+
+b main
+set logging on
+set logging file myfile.txt
+set logging off
+set logging overwrite on
+
+show logging
