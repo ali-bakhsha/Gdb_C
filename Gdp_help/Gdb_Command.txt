@@ -3,6 +3,7 @@ gdb sample.exe				// debug
 
 -----------b -> break to line of code
 break(b) main -> add breakpoint at the first line of main function
+b 8 -> break point at linenumber 8
 b function3 - > add breakpoint to function 3
 run
 list(l) --> list 10 line of code - (l 20  show codes between 15 to 25)
@@ -30,4 +31,20 @@ show logging
 
 set variable $myvar = 10
 set $myvar = &a
+
+
+how to save breakpoints:
+b main
+b 8
+b 9
+info b
+save breakpoints myfile
+quit
+enter again
+source myfile
+info b
+
+
+ptype p -> show the class type
+
  

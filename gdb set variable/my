@@ -1,0 +1,5 @@
+break main
+break D:\learning\C++\Gdb_C\gdb set variable\sample.cpp:8
+break D:\learning\C++\Gdb_C\gdb set variable\sample.cpp:8
+break D:\learning\C++\Gdb_C\gdb set variable\sample.cpp:13
+break D:\learning\C++\Gdb_C\gdb set variable\sample.cpp:15
