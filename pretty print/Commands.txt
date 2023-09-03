@@ -1,0 +1,19 @@
+g++ -g code.cpp -o output
+dgb output.exe
+
+b main
+run
+p c  -> result is "$1 = {b = {a = {i = 2}}, ca = {i = 1}}" and it is confusing"
+
+set print pretty on
+print c
+$2 = {
+  b = {
+    a = {
+      i = 2
+    }
+  },
+  ca = {
+    i = 1
+  }
+}

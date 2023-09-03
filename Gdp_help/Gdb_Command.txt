@@ -19,3 +19,11 @@ run(r) -> run the program again
 info b -> information about breakpoints - number 1-2-3
 delete 1 - > delete breakpoint number 1
 continue(c) -> continue to next breakpoint
+
+set print pretty on
+set logging on
+set logging file myfile.txt 
+set logging overwrite
+set logging off
+show logging
+ 
