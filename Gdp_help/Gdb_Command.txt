@@ -17,6 +17,7 @@ to go back you should use f 2
 
 run(r) -> run the program again
 info b -> information about breakpoints - number 1-2-3
+infor locals 
 delete 1 - > delete breakpoint number 1
 continue(c) -> continue to next breakpoint
 
@@ -26,4 +27,7 @@ set logging file myfile.txt
 set logging overwrite
 set logging off
 show logging
+
+set variable $myvar = 10
+set $myvar = &a
  

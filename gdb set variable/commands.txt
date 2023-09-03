@@ -1,0 +1,29 @@
+
+g++ -g sample.cpp -o output
+dgb output.exe
+b manin
+run 
+print a
+print b
+info locals
+set variable variablename=expression
+set variable a.data=5    (it is global variable of gdb)
+
+print a
+$3 a = {}
+print $3 same result with new number
+$4 a = {}
+
+set variable b.next=a
+print b.next
+print *b.next
+
+set variable $myvar = 10   it is a gdb variable and you should use $ to show and set
+p $myvar
+
+set variable $myvar = 10*20*20
+set variable $myvar = &a
+
+you can use "set" instead of "set variable"
+
+
